@@ -7,9 +7,43 @@ body.dark-mode {
   background: #222;
 }
 .header {
-    background-color: gray;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  background: #fff;
 }
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-tabs ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-tabs li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s;
+}
+
+#dark-mode-toggle {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 #logo-header {
     height: 50px;
     width: 50px;
